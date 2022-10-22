@@ -1,44 +1,94 @@
 body{
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     background-color: aqua;
     margin-left: auto ;
     margin-right: auto;
     margin-top: 6rem;
     margin-bottom: auto;
     text-align: center;
-   
+    font-family: 'Overlock';
 }
 button{
-font-size: 25px;
+font-family: 'css-overlock';
+font-size: 36px;
+border-radius: 6px;
+transition: 0.3s linear;
+box-shadow: 5px 5px 25px 1px rgba(0,0,0,0.25);
 }
+button:hover{
+    background-color: black;
+    color: white;
+}
+button:active{
+    transform: scale(0.85);
+    box-shadow: 3px 2px 25px 1px rgba(0,0,0,0.25);
+}
+/* boton naranja y al pasar mouse cambia*/
+.button-orange {
+    background-color: white; 
+    color: black; 
+    border: 6px solid orangered;
+  }
+  
+.button-orange:hover {
+    background-color: orangered;
+    color: white;
+  }
+/* boton naranja*/
 
+/* boton azul y al pasar mouse cambia*/
+.button-blue {
+    background-color: white; 
+    color: black; 
+    border: 6px solid blue;
+  }
+  
+.button-blue:hover {
+    background-color: blue;
+    color: white;
+  }
+/* boton naranja*/
+
+/* boton naranja y al pasar mouse cambia*/
+.button-yellowgreen {
+    background-color: white; 
+    color: black; 
+    border: 6px solid yellowgreen;
+  }
+.button-yellowgreen:hover {
+    background-color: yellowgreen;
+    color: white;
+  }
+/* boton naranja*/
 .css-overlock {
     font-family: 'Overlock', serif;
     }
-
 .centrado{
  align-items: center;
 
 }
-
 .imagen {  
     max-width: 10rem;  
     height: auto;
     align-self: center;
     margin-left: auto;
     } 
+
 .mediano {  
         max-width: 25rem;  
         height: auto;
         align-self: center;
         margin-left: auto;
         } 
+
+/*removiendo fondo en de imagen hola.png*/
 .remove-bg{
     filter: brightness(1.1);
     mix-blend-mode: multiply;
 }
+
 .css-overlock {
-    font-size: 40px;
-    font-family: 'Overlock', serif;
+    font-size: 36px;
+    font-family: 'Overlock';
     }
