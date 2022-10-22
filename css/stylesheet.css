@@ -1,6 +1,4 @@
 body{
-    width: 90%;
-    height: 90%;
     background-color: aqua;
     margin-left: auto ;
     margin-right: auto;
@@ -15,19 +13,21 @@ font-size: 36px;
 border-radius: 6px;
 transition: 0.3s linear;
 box-shadow: 5px 5px 25px 1px rgba(0,0,0,0.25);
+background-color: black;
+color: whitesmoke;
 }
 button:hover{
     background-color: black;
     color: white;
 }
 button:active{
-    transform: scale(0.85);
+    transform: scale(0.9);
     box-shadow: 3px 2px 25px 1px rgba(0,0,0,0.25);
 }
-/* boton naranja y al pasar mouse cambia*/
+/* boton y al pasar mouse cambia*/
 .button-orange {
-    background-color: white; 
-    color: black; 
+    background-color: orangered; 
+    color: white; 
     border: 6px solid orangered;
   }
   
@@ -35,12 +35,11 @@ button:active{
     background-color: orangered;
     color: white;
   }
-/* boton naranja*/
 
 /* boton azul y al pasar mouse cambia*/
 .button-blue {
-    background-color: white; 
-    color: black; 
+    background-color: blue; 
+    color: white; 
     border: 6px solid blue;
   }
   
@@ -48,22 +47,22 @@ button:active{
     background-color: blue;
     color: white;
   }
-/* boton naranja*/
 
-/* boton naranja y al pasar mouse cambia*/
+/* boton y al pasar mouse cambia*/
 .button-yellowgreen {
-    background-color: white; 
-    color: black; 
+    background-color: yellowgreen; 
+    color: white; 
     border: 6px solid yellowgreen;
   }
 .button-yellowgreen:hover {
     background-color: yellowgreen;
     color: white;
   }
-/* boton naranja*/
+
 .css-overlock {
     font-family: 'Overlock', serif;
     }
+
 .centrado{
  align-items: center;
 
