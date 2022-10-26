@@ -1,39 +1,47 @@
 body{
-    background-color: aqua;
+   /* linear gradient background*/
+  background: rgba(156, 247, 165, 0.93);
+  background: -webkit-linear-gradient(0deg, rgba(156, 247, 165, 0.93) 0%, #afc5ff 50%, #d7d7d7 100%);
+  background: linear-gradient(0deg, rgba(156, 247, 165, 0.93) 0%, #afc5ff 50%, #d7d7d7 100%);
+  /*-----------------------------*/
     margin-left: auto ;
-    margin-right: auto;
-    margin-top: 6rem;
+    margin-right: auto ;
+    margin-top: 9rem;
     margin-bottom: auto;
     text-align: center;
     font-family: 'Overlock';
 }
 button{
-font-family: 'css-overlock';
+font-family: 'Overlock';
 font-size: 36px;
 border-radius: 6px;
 transition: 0.3s linear;
 box-shadow: 5px 5px 25px 1px rgba(0,0,0,0.25);
 background-color: black;
 color: whitesmoke;
+padding: 14px 40px;
+margin-left: 0.5rem ;
+margin-right: 0.5rem ;
 }
 button:hover{
+
     background-color: black;
     color: white;
+    box-shadow: 5px 5px 25px 1px rgba(0,0,0,0.25);
+    transform:scale(1.1);
 }
-button:active{
-    transform: scale(0.9);
-    box-shadow: 3px 2px 25px 1px rgba(0,0,0,0.25);
-}
+
 /* boton y al pasar mouse cambia*/
 .button-orange {
     background-color: orangered; 
     color: white; 
     border: 6px solid orangered;
+    padding: 14px 40px;
   }
-  
 .button-orange:hover {
-    background-color: orangered;
-    color: white;
+  background-color: orangered; 
+  color: white; 
+    transform:scale(1.1);
   }
 
 /* boton azul y al pasar mouse cambia*/
@@ -41,11 +49,14 @@ button:active{
     background-color: blue; 
     color: white; 
     border: 6px solid blue;
+    padding: 14px 40px;
   }
   
 .button-blue:hover {
     background-color: blue;
-    color: white;
+    color: rgb(255, 255, 255);
+    transform:scale(1.1);
+    
   }
 
 /* boton y al pasar mouse cambia*/
@@ -53,14 +64,34 @@ button:active{
     background-color: yellowgreen; 
     color: white; 
     border: 6px solid yellowgreen;
+    padding: 14px 40px;
   }
 .button-yellowgreen:hover {
     background-color: yellowgreen;
     color: white;
+    transform:scale(1.1);
   }
 
+  button:active{
+    transform: scale(0.9);
+    box-shadow: 3px 2px 25px 1px rgba(0,0,0,0.25);
+}
+.button-orange:active{
+  transform: scale(0.9);
+  box-shadow: 3px 2px 25px 1px rgba(0,0,0,0.25);
+}
+.button-yellowgreen:active{
+  transform: scale(0.9);
+  box-shadow: 3px 2px 25px 1px rgba(0,0,0,0.25);
+}
+.button-blue:active{
+  transform: scale(0.9);
+  box-shadow: 3px 2px 25px 1px rgba(0,0,0,0.25);
+}
+
 .css-overlock {
-    font-family: 'Overlock', serif;
+    font-family: 'Overlock';
+    transition: 0.3s linear;
     }
 
 .centrado{
@@ -72,6 +103,8 @@ button:active{
     height: auto;
     align-self: center;
     margin-left: auto;
+    
+   
     } 
 
 .mediano {  
