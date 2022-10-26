@@ -1,16 +1,17 @@
 body{
    /* linear gradient background*/
-  background: rgba(156, 247, 165, 0.93);
-  background: -webkit-linear-gradient(0deg, rgba(156, 247, 165, 0.93) 0%, #afc5ff 50%, #d7d7d7 100%);
+  
   background: linear-gradient(0deg, rgba(156, 247, 165, 0.93) 0%, #afc5ff 50%, #d7d7d7 100%);
   /*-----------------------------*/
     margin-left: auto ;
     margin-right: auto ;
-    margin-top: 9rem;
-    margin-bottom: auto;
+    margin-top: 1rem;
+    margin-bottom: 1px ;
     text-align: center;
     font-family: 'Overlock';
+
 }
+
 button{
 font-family: 'Overlock';
 font-size: 36px;
@@ -103,7 +104,6 @@ button:hover{
     height: auto;
     align-self: center;
     margin-left: auto;
-    
    
     } 
 
